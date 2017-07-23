@@ -32,7 +32,7 @@ Appends an SVG element to the DOM and returns an object with four properties:
 - *svg* is a D3 selection of the SVG element containing the visualization.
 
 #### Options
-You can pass up to seven options to customize the return object.
+You can pass up to seven options to customize the SVG element and return object.
 
 | Option  | Data Type | Default  | Description                                       |
 |---------|-----------|----------|---------------------------------------------------|

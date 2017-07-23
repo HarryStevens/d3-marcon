@@ -2,6 +2,8 @@
 
 [Margin conventions](https://bl.ocks.org/mbostock/3019563) for [d3-selection](https://github.com/d3/d3-selection).
 
+[A live example on bl.ocks.org](https://bl.ocks.org/HarryStevens/de1069536e00256d7aa82299fac0f3d5).
+
 ## Installing
 If you use NPM, `npm install d3-marcon`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-marcon/tree/master/build).
 You can also load directly from [unpkg](https://unpkg.com/d3-marcon/build/d3-marcon.min.js). You may use the entire [D3.js library](https://d3js.org/) or, at a minimum, d3-selection.

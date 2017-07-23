@@ -25,11 +25,11 @@ var setup = d3.marcon(),
 
 <a href="#marcon" name="marcon">#</a> d3.<b>marcon</b>([<i>options</i>])
 
-Returns an object with four properties:
+Appends an SVG element to the DOM and returns an object with four properties:
 - *margin* is an object with four additional numerical properties: *top*, *bottom*, *left*, and *right*.
 - *width* is a number representing the width of the visualization.
 - *height* is a number representing the height of the visualization.
-- *svg* is a D3 selection of the svg element containing the visualization.
+- *svg* is a D3 selection of the SVG element containing the visualization.
 
 ### Options
 You can pass up to seven options to customize the return object.

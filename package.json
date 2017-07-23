@@ -7,7 +7,7 @@
     "d3-module"
   ],
   "license": "BSD-3-Clause",
-  "main": "build/d3-marcon.min.js",
+  "main": "build/d3-marcon.js",
   "jsnext:main": "index",
   "homepage": "https://github.com/harry_stevens/d3-marcon",
   "repository": {

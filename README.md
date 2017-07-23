@@ -1,15 +1,42 @@
 # d3-foo
 
-YOUR DESCRIPTION HERE. Replace all instances of `foo` in this file with the name of your new plugin.
+[Margin conventions](https://bl.ocks.org/mbostock/3019563) for d3-selection.
 
 ## Installing
 
-If you use NPM, `npm install d3-foo`. Otherwise, download the [latest release](https://github.com/d3/d3-foo/releases/latest).
+### npm
+```bash
+npm install d3-marcon
+```
+### CDN
+```html
+<script src="https://unpkg.com/d3-marcon/build/d3-marcon.min.js"></script>
+```
+### Host locally
+Download the source from this repo's [build directory](https://github.com/HarryStevens/d3-marcon/tree/master/build).
+```html
+<script src="path/to/d3-marcon.min.js"></script>
+```
 
 ## API Reference
 
-YOUR API DOCUMENTATION HERE. Use bold for symbols (such as constructor and method names) and italics for instances. See the other D3 modules for examples.
+<a href="#marcon" name="marcon">#</a> <b>marcon</b>([<i>options</i>])
 
-<a href="#foo" name="foo">#</a> <b>foo</b>()
+Returns an object you can use for implementing the margin conventions.
 
-Computes the answer to the ultimate question of life, the universe, and everything.
+```js
+var setup = d3.marcon();
+
+var svg = setup.svg;
+```
+
+### Options
+| Option  | Data Type | Default  | Description                                       |
+|---------|-----------|----------|---------------------------------------------------|
+| top     | number    | `0`      | The visualization's top margin.                   |
+| bottom  | number    | `0`      | The visualization's bottom margin.                |
+| left    | number    | `0`      | The visualization's left margin.                  |
+| right   | number    | `0`      | The visualization's right margin.                 |
+| width   | number    | `900`    | The visualization's width.                        |
+| height  | number    | `600`    | The visualization's height.                       |
+| element | string    | `"body"` | The element on which to append the visualization. |

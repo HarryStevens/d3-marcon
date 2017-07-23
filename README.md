@@ -4,7 +4,7 @@
 
 ## Installing
 If you use NPM, `npm install d3-marcon`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-marcon/tree/master/build).
-You can also load directly from unpkg, but you'll need to include d3-selection.
+You can also load directly from [unpkg](https://unpkg.com/d3-marcon/build/d3-marcon.min.js). You may use the entire [D3.js library](https://d3js.org/) or, at a minimum, d3-selection.
 ```html
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
 <script src="https://unpkg.com/d3-marcon/build/d3-marcon.min.js"></script>
@@ -21,7 +21,7 @@ var setup = d3.marcon(),
 
 ## API Reference
 
-<a href="#marcon" name="marcon">#</a> <b>marcon</b>([<i>options</i>])
+<a href="#marcon" name="marcon">#</a> d3.<b>marcon</b>([<i>options</i>])
 
 Returns an object with four properties:
 - *margin* is an object with four additional numerical properties: *top*, *bottom*, *left*, and *right*.

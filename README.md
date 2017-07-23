@@ -1,36 +1,36 @@
-# d3-foo
+# d3-marcon
 
-[Margin conventions](https://bl.ocks.org/mbostock/3019563) for d3-selection.
+[Margin conventions](https://bl.ocks.org/mbostock/3019563) for [d3-selection](https://github.com/d3/d3-selection).
 
 ## Installing
-
-### npm
-```bash
-npm install d3-marcon
-```
-### CDN
+If you use NPM, `npm install d3-marcon`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-marcon/tree/master/build).
+You can also load directly from unpkg, but you'll need to include d3-selection.
 ```html
+<script src="https://d3js.org/d3-selection.v1.min.js"></script>
 <script src="https://unpkg.com/d3-marcon/build/d3-marcon.min.js"></script>
-```
-### Host locally
-Download the source from this repo's [build directory](https://github.com/HarryStevens/d3-marcon/tree/master/build).
-```html
-<script src="path/to/d3-marcon.min.js"></script>
+<script>
+
+var setup = d3.marcon(),
+	margin = setup.margin,
+	height = setup.height,
+	width = setup.width,
+	svg = setup.svg;
+
+</script>
 ```
 
 ## API Reference
 
 <a href="#marcon" name="marcon">#</a> <b>marcon</b>([<i>options</i>])
 
-Returns an object you can use for implementing the margin conventions.
-
-```js
-var setup = d3.marcon();
-
-var svg = setup.svg;
-```
+Returns an object with four properties:
+- *margin* is an object with four additional numerical properties: *top*, *bottom*, *left*, and *right*.
+- *width* is a number representing the width of the visualization.
+- *height* is a number representing the height of the visualization.
+- *svg* is a D3 selection of the svg element the contains the visualization.
 
 ### Options
+You can pass up to seven options to customize the return object.
 | Option  | Data Type | Default  | Description                                       |
 |---------|-----------|----------|---------------------------------------------------|
 | top     | number    | `0`      | The visualization's top margin.                   |

@@ -7,7 +7,7 @@ var dom = new JSDOM("<!DOCTYPE html><html><body></body></html>");
 global.document = dom.window.document;
 
 
-tape("marcon() returns a magrin convention and selections svg ang g elements", function(test) {
+tape("marcon() returns a margin convention and selections of svg and g elements", function(test) {
   
   var setup = d3.marcon();
 	test.equal(setup.margin.top, 0);

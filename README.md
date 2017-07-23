@@ -31,6 +31,7 @@ Returns an object with four properties:
 
 ### Options
 You can pass up to seven options to customize the return object.
+
 | Option  | Data Type | Default  | Description                                       |
 |---------|-----------|----------|---------------------------------------------------|
 | top     | number    | `0`      | The visualization's top margin.                   |

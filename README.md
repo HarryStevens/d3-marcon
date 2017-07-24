@@ -32,50 +32,50 @@ m.svg().append("rect")
 
 ## API Reference
 
-<a href="#marcon" name="marcon">#</a> d3.<b>marcon</b>([<i>options</i>])
+<a href="#marcon" name="marcon">#</a> d3.<b>marcon</b>([<i>options</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js "Source")
 
-Constructs a visualization generator, or <b>viz</b>, on which you can set and get the dimensions and margins, and append an `svg` element with a nested `g` to a DOM element.
+Constructs a visualization generator, or <i>viz</i>, on which you can set and get the dimensions and margins, and append an `svg` element with a nested `g` to a DOM element.
 
-<a href="#marcon_element" name="marcon_element">#</a> viz.<b>element</b>([<i>element</i>])
+<a href="#marcon_element" name="marcon_element">#</a> <i>viz</i>.<b>element</b>([<i>element</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L53 "Source")
 
 Selects a DOM element to append the viz to. Defaults to `"body"`.
 
-<a href="#marcon_top" name="marcon_top">#</a> viz.<b>top</b>([<i>margin</i>])
+<a href="#marcon_top" name="marcon_top">#</a> <i>viz</i>.<b>top</b>([<i>margin</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L17 "Source")
 
 Set or get the viz's top margin. Defaults to `0`.
 
-<a href="#marcon_right" name="marcon_right">#</a> viz.<b>right</b>([<i>margin</i>])
+<a href="#marcon_right" name="marcon_right">#</a> <i>viz</i>.<b>right</b>([<i>margin</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L29 "Source")
 
 Set or get the viz's right margin. Defaults to `0`.
 
-<a href="#marcon_bottom" name="marcon_bottom">#</a> viz.<b>bottom</b>([<i>margin</i>])
+<a href="#marcon_bottom" name="marcon_bottom">#</a> <i>viz</i>.<b>bottom</b>([<i>margin</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L35 "Source")
 
 Set or get the viz's bottom margin. Defaults to `0`.
 
-<a href="#marcon_left" name="marcon_left">#</a> viz.<b>left</b>([<i>margin</i>])
+<a href="#marcon_left" name="marcon_left">#</a> <i>viz</i>.<b>left</b>([<i>margin</i>]) [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L23 "Source")
 
 Set or get the viz's left margin. Defaults to `0`.
 
-<a href="#marcon_width" name="marcon_height">#</a> viz.<b>width</b>()
+<a href="#marcon_width" name="marcon_height">#</a> <i>viz</i>.<b>width</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L41 "Source")
 
 Set or get the viz's width. Defaults to `900`.
 
-<a href="#marcon_height" name="marcon_height">#</a> viz.<b>height</b>()
+<a href="#marcon_height" name="marcon_height">#</a> <i>viz</i>.<b>height</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L47 "Source")
 
 Set or get the viz's height. Defaults to `600`.
 
-<a href="#marcon_innerWidth" name="marcon_innerWidth">#</a> viz.<b>innerWidth</b>()
+<a href="#marcon_innerWidth" name="marcon_innerWidth">#</a> <i>viz</i>.<b>innerWidth</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L59 "Source")
 
 Get the viz's innerWidth, which is equal to `width - left - right`.
 
-<a href="#marcon_innerHeight" name="marcon_innerHeight">#</a> viz.<b>innerHeight</b>()
+<a href="#marcon_innerHeight" name="marcon_innerHeight">#</a> <i>viz</i>.<b>innerHeight</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L63 "Source")
 
 Get the viz's innerHeight, which is equal to `height - top - bottom`.
 
-<a href="#marcon_render" name="marcon_render">#</a> viz.<b>render</b>()
+<a href="#marcon_render" name="marcon_render">#</a> <i>viz</i>.<b>render</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L71 "Source")
 
 Render to viz to the DOM.
 
-<a href="#marcon_svg" name="marcon_svg">#</a> viz.<b>svg</b>()
+<a href="#marcon_svg" name="marcon_svg">#</a> <i>viz</i>.<b>svg</b>() [<>](https://github.com/HarryStevens/d3-marcon/blob/master/src/marcon.js#L67 "Source")
 
 Get the `svg` element that contains the viz. Returns `undefined` if the viz has not yet been rendered.

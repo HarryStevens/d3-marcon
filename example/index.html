@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		svg {
+			border: 1px dashed black;
+		}
+	</style>
+</head>
+<body>
+	<div class="viz"></div>
+	<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+	<script src="../build/d3-marcon.js"></script>
+	<script>
+		var m = d3.marcon()
+			.top(10)
+			.right(10)
+			.bottom(10)
+			.left(10)
+			.element(".viz");
+
+		m.render();
+
+		m.svg().append("rect")
+			.attr("width", m.innerWidth())
+			.attr("height", m.innerHeight())
+			.style("fill", "steelblue");
+	</script>
+</body>
+</html>

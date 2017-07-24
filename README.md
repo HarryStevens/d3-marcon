@@ -11,17 +11,17 @@ You can also load directly from [unpkg](https://unpkg.com/d3-marcon/build/d3-mar
 <script>
 
 var m = d3.marcon()
-		.top(10)
-		.bottom(10)
-		.left(10)
-		.right(10);
+    .top(10)
+    .bottom(10)
+    .left(10)
+    .right(10);
 
 m.render();
 
 m.svg().append("rect")
-		.attr("width", m.innerWidth())
-		.attr("height", m.innerHeight())
-		.style("fill", "steelblue");
+    .attr("width", m.innerWidth())
+    .attr("height", m.innerHeight())
+    .style("fill", "steelblue");
 
 </script>
 ```

@@ -69,12 +69,11 @@ export default function() {
   };
 
   instance.render = function() {
-    svg = select(element)
-      .append("svg")
-      .attr("width", instance.innerWidth() + instance.left() + instance.right())
-      .attr("height", instance.innerHeight() + instance.top() + instance.bottom())
+    svg = select(element).append("svg")
+        .attr("width", instance.innerWidth() + instance.left() + instance.right())
+        .attr("height", instance.innerHeight() + instance.top() + instance.bottom())
       .append("g")
-      .attr("transform", "translate(" + left + ", " + top + ")");
+        .attr("transform", "translate(" + left + ", " + top + ")");
   }
 
   return instance;

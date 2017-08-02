@@ -1,6 +1,6 @@
 {
   "name": "d3-marcon",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Margin conventions for d3-selection.",
   "keywords": [
     "d3",

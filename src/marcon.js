@@ -3,7 +3,7 @@ import {select} from "d3-selection";
 export default function() {
 
   var instance = {};
-  var top = 10,
+  var top = 0,
     bottom = 0,
     left = 0,
     right = 0,

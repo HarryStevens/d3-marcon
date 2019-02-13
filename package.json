@@ -9,10 +9,10 @@
   "license": "BSD-3-Clause",
   "main": "build/d3-marcon.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/harry_stevens/d3-marcon",
+  "homepage": "https://github.com/HarryStevens/d3-marcon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harry_stevens/d3-marcon.git"
+    "url": "https://github.com/HarryStevens/d3-marcon.git"
   },
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -g d3-selection:d3 -f umd -n d3 -o build/d3-marcon.js -- index.js",

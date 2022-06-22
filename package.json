@@ -21,7 +21,7 @@
     "postpublish": "zip -j build/d3-marcon.zip -- LICENSE README.md build/d3-marcon.js build/d3-marcon.min.js"
   },
   "devDependencies": {
-    "jsdom": "^11.1.0",
+    "jsdom": "^16.5.0",
     "rollup": "0.27",
     "tape": "4",
     "uglify-js": "2"
